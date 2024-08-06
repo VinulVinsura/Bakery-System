@@ -1,0 +1,38 @@
+.loginForm{
+    margin-top: 10rem;
+}
+
+body{
+    background-image: url("img/cake-background-8vm6gxa8rgslrjl5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    
+}
+
+.loginForm{
+    background-color: #ffffff63;;
+    border-radius: 20px;
+    padding: 50px;
+    border: 4px solid #a9a9a9;
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: #000;
+     
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(14, 45, 70) !important;
+    padding-left: 16px !important ;
+}
+
