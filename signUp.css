@@ -13,20 +13,18 @@ h1{
     text-align: center;
 }
 
-.loginForm{
-    margin-top: 5rem;
+form{
+    margin-top: 2rem !important;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.452);
+    background-color: rgba(255, 255, 255, 0.397);
     padding: 40px;
     border: 5px solid #a69090;
    
 }
-.message{
-    text-align: center;
-    background: #f9eded;
-    padding: 15px 0px;
-    border:1px solid #699053;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    color: red;
+
+
+a{
+    text-decoration: none;
+    color:  rgb(2, 23, 40) !important;
+    padding-left: 16px !important ;
 }

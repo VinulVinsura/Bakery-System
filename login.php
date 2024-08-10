@@ -1,3 +1,8 @@
+<?php
+  session_start();
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -16,32 +21,33 @@
 
 <body>
 
+
     <div class="container">
 
         <div class="row">
          <div class="col-4"></div>
             <div class="col-4">
-                <form class="loginForm" method="post" action="">
+                <form class="loginForm" method="post" action="insert_user.php">
      
                     <h1 class="h3 mb-3 fw-normal"><b>Please sign in</b></h1>
 
                     <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control"  placeholder="name@example.com" name="email">
                         <label for="floatingInput">Email address</label>
                     </div>
                     <br>
                     <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input type="password" class="form-control"  placeholder="Password" name="password">
                         <label for="floatingPassword">Password</label>
                     </div>
 
                     <div class="form-check text-start my-3">
-                        <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" >
                         <label class="form-check-label" for="flexCheckDefault">
                             <b>Remember me</b>
                         </label>
                     </div>
-                    <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+                    <button class="btn btn-primary w-100 py-2" type="submit" name="submit">Sign in</button>
                     <br><br>
                     
                     <p><b>Don't have account?   </b> <a href="sign_up_form.php">Sign Up</a></p>
@@ -63,4 +69,7 @@
 </body>
 
 </html>
+
+
+
 

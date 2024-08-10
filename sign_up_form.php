@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="sign_up.css">
+    <link rel="stylesheet" href="signUp.css">
     <!--Using boostrp css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,7 +19,8 @@
         <div class="row">
          <div class="col-4"></div>
             <div class="col-4">
-                <form class="loginForm" method="post">
+                <br>
+                <form class="signupForm" method="post">
      
                     <h1 class="h3 mb-3 fw-normal"><b>Please sign up</b></h1>
 
@@ -49,7 +50,7 @@
                     </div>
                     <button class="btn btn-success w-100 py-2" type="submit" name="submit">Submit</button>
                     <br><br>
-                    <p><b>Already have an account?   </b> <a href="login.php">Sign in.</a></p>
+                    <p><b>Already have an account?</b> <a href="login.php">Sign in.</a></p>
                     
                     
                     
