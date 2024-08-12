@@ -7,9 +7,9 @@
 }
 
 body{
-    background-image: url("img/cake-background-8vm6gxa8rgslrjl5.jpg");
+    background-image: url("images1/new.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     background-attachment: fixed;
     background-position: center;
 
@@ -32,3 +32,13 @@ a{
     padding-left: 16px !important ;
 }
 
+.navBar{
+    top: 0;right: 0;left: 0;
+    background-color: #560a0a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.4rem 7%;
+    z-index: 999;
+}

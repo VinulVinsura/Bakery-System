@@ -78,7 +78,7 @@
                         </p>
                        
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                         </p>
                         <span class="price"><h3><strong>Rs.550.00</strong></h3></span>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                             <span class="price"><h3><strong>Rs.620.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             <span class="price"><h3><strong>Rs.700.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                             <span class="price"><h3><strong>Rs.750.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                             <span class="price"><h3><strong>Rs.730.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                             <span class="price"><h3><strong>Rs.550.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                             <span class="price"><h3><strong>Rs.450.00</strong></h3></span>
                         </p>
                         <div class="orderNow">
-                            <a href="indexorder.html"><button>Order now</button></a>
+                            <a href="sign_up_form.php"><button>Order now</button></a>
                         </div>
                     </div>
                 </div>

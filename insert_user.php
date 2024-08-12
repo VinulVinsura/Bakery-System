@@ -1,4 +1,14 @@
-<?php
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </head>
+
+  <body>
+
+  <?php
 include("config.php");
 
 if(isset($_POST['submit'])){
@@ -13,12 +23,20 @@ if(isset($_POST['submit'])){
 
     if(is_array($row) && !empty($row)){
      $_SESSION['valid']=$row['email'];
-    }else{
-        echo "wrong email or password";
     }
 
     if(isset($_SESSION['valid'])){
       header("Location: home.php");
+    }else{
+       header("Location: login.php");  
+
+       ?>
+      <script>
+        swal("Invalid UserName Or Password !", "You clicked the button!", "error");
+        
+      </script>
+      <?php
+
     }
 
 
@@ -29,3 +47,13 @@ if(isset($_POST['submit'])){
 
 mysqli_close($con);
 ?>
+
+
+
+   
+    
+  </body>
+</html>
+
+
+
