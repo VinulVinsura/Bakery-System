@@ -92,7 +92,7 @@ mysqli_close($con);
                 <br><br>
                 <button class="btn btn-primary w-100 py-2" type="submit" name="submit">Place Order</button> 
                 <br><br>
-                <a href="home.php"><button>Go Home</button></a>
+                <a href="home.php">Go Home</a>
 
         </form>
       
