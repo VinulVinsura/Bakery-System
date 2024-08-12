@@ -26,17 +26,9 @@ if(isset($_POST['submit'])){
     }
 
     if(isset($_SESSION['valid'])){
-      header("Location: home.php");
+      header("Location: orderForm.php");
     }else{
-       header("Location: login.php");  
-
-       ?>
-      <script>
-        swal("Invalid UserName Or Password !", "You clicked the button!", "error");
-        
-      </script>
-      <?php
-
+      header("Location: login.php");
     }
 
 

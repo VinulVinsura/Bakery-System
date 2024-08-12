@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg,#000000,#c50b43,white),url("istockphoto-1187830875-612x612.jpg"); */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5),rgba(255, 171, 171, 0.5), rgba(255, 255, 255, 0.5)), 
+    url("img/istockphoto-1187830875-612x612.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgb(0 0 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 600px;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+    color: #000000;
+    margin-top: 6px;
+}
+.label{
+    font-weight:bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+input[type="number"]{
+    display: inline-block;
+    width: 60%;
+}
+
+.cake_label{
+    display: inline-block;
+
+}
+
+.cake_types_container{
+    display: flex;
+    justify-content:space-around;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5d4144;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 4px 0px black;
+}
+
+button:hover {
+    background-color:#8e676b;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    color: #728978;
+    font-weight: bold;
+}
+
+option{
+background-color: #652d1c;
+}
+
+#orderForm{
+    margin: 10px !important;
+}
+
+
+
